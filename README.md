@@ -7,6 +7,9 @@ A simple weather application built with Python's Tkinter library and the OpenWea
 - Search weather by city name
 - Display current temperature (°C), pressure (hPa), humidity (%), and weather description
 - Simple, user-friendly GUI using Tkinter
+## UI
+<img width="297" alt="Screenshot 2024-11-05 at 3 28 37 PM" src="https://github.com/user-attachments/assets/e786b629-04ee-4bbe-96d7-f721fc43e7df">
+
 
 ## Installation
 
