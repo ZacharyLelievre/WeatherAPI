@@ -1,9 +1,14 @@
 import tkinter as tk
 import requests
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 def get_weather():
     city = city_entry.get()
-    api_key = "bd1882222b03b6dff3173d324d07e1c8"
+    api_key = os.getenv("API_KEY")
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = f"{base_url}q={city}&appid={api_key}&units=metric"
 
